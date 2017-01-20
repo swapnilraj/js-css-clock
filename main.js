@@ -1,13 +1,13 @@
 /**
- * {HTMLDivElement}
+ * @type {HTMLDivElement}
  */
 var hoursHand = document.querySelector('body > div > div > div.hand.hour-hand');
 /**
- * {HTMLDivElement}
+ * @type {HTMLDivElement}
  */
 var minuteHand = document.querySelector('body > div > div > div.hand.min-hand');
 /**
- * {HTMLDivElement}
+ * @type {HTMLDivElement}
  */
 var secondHand = document.querySelector('body > div > div > div.hand.second-hand');
 
