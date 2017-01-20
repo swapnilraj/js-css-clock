@@ -20,7 +20,6 @@ const initializeTime = () => {
     const second = date.getSeconds();
 
     updateClock(hour, minute, second);
-    console.log(hour);
 };
 
 /**
