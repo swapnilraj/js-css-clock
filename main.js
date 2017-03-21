@@ -28,7 +28,7 @@ const initializeTime = () => {
 * @param {number} second
 */
 const updateClock = (hour, minute, second) => {
-    const secondsDegrees = ((second / 60) * 360) + 90;
+    const secondsDegrees = ((second / 60) * 360);
     secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
 
     const minsDegrees = ((minute / 60) * 360) + ((second/60)*6) + 90;
